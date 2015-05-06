@@ -11,7 +11,7 @@
   <colour>16777215</colour>
   <showcolour>-1</showcolour>
   <code>/****
-    WELCOME TO udphp!
+    WELCOME TO GMnet PUNCH!
     Please read the readme document! This will guide you through this demo!
     ****/</code>
   <enableViews>0</enableViews>
@@ -55,10 +55,10 @@
   </views>
   <instances>
     <instance objName="obj_control" x="0" y="0" name="inst_AA1317B3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_demo_btn_server" x="32" y="80" name="inst_8854577C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_demo_btn_client" x="128" y="80" name="inst_CE573281" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_demo_btn_server_stop" x="32" y="112" name="inst_0DD9EFCF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_demo_btn_client_stop" x="128" y="112" name="inst_9ECA9854" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_demo_btn_server" x="32" y="176" name="inst_8854577C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_demo_btn_client" x="128" y="176" name="inst_CE573281" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_demo_btn_server_stop" x="32" y="208" name="inst_0DD9EFCF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_demo_btn_client_stop" x="128" y="208" name="inst_9ECA9854" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

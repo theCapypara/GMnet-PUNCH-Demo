@@ -1,11 +1,6 @@
-UDPHP - UDP Hole Punching
+GMnet PUNCH
 
-This license file replaces any other licenses that were active before, starting 
-with version 1.2.1 of this asset.
-
-===============================================================================
-
-Copyright (c) 2015 Marco Köpcke
+Copyright (c) 2015 Marco KÃ¶pcke
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

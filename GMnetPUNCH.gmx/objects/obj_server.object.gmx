@@ -43,14 +43,14 @@ ret = udphp_createServer(server,      //udp server    A UDP Server created with 
                          buffer,      //buffer         A buffer that will be used to send data
                          player_list);//ds_list        A list that players will be saved to. Use this to get the connected clients. Entries can be parsed with udphp_playerListIP and udphp_playerListPort
 if (!ret) {
-    //Server could not be created. Destroy instace. UDPHP will also show a message.
+    //Server could not be created. Destroy instace. GMnet PUNCH will also show a message.
     instance_destroy();
 }
 //Set the 8 data strings. These are used for the lobby and can also be
 //retrived by connected clients using udphp_clientReadData().
-udphp_serverSetData(1,"udphp_demo120"); //1 is reserved for game name and version! Change it when making your own game!
-udphp_serverSetData(2,"UDPHP demo Server"); //2 is used for game name in our demo lobby
-udphp_serverSetData(3,"This is a UDPHP demo server!"); //3 is used for game description in our demo lobby
+udphp_serverSetData(1,"gmnet_punch_122"); //1 is reserved for game name and version! Change it when making your own game!
+udphp_serverSetData(2,"GMnet PUNCH demo Server"); //2 is used for game name in our demo lobby
+udphp_serverSetData(3,"This is a GMnet PUNCH demo server!"); //3 is used for game description in our demo lobby
 //4-8 are unused by the demo.
 
 //When you need to change this data after the server has already conncted to
@@ -174,7 +174,7 @@ if (in_id != server) exit;
 switch buffer_read(in_buff, buffer_s8 ) {
     case 10:
         //We should check if this player is actually already connected, but we are skipping that for this demo
-        global.demo_server += "#SERVER: Client "+in_ip+":"+string(in_port)+" says hello";
+        global.demo_server += "#S: "+in_ip+":"+string(in_port)+" says hello";
     break;
 }
 </string>

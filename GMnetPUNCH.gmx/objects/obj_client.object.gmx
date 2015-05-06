@@ -181,7 +181,7 @@ if (in_id != client or in_ip != udphp_clientGetServerIP(client_id)) exit;
 //Check command
 switch buffer_read(in_buff, buffer_s8 ) {
     case 10:
-        global.demo_clients += "#CLIENT "+string(client_id)+": Server says hello to the world";
+        global.demo_clients += "#CLIENT "+string(client_id)+": Server says hello";
     break;
 }
 </string>

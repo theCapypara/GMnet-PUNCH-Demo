@@ -64,6 +64,7 @@
     <sprite>sprites\spr_demo_btn_client</sprite>
     <sprite>sprites\spr_demo_btn_close</sprite>
     <sprite>sprites\spr_demo_btn_server</sprite>
+    <sprite>sprites\udphp_logo</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
