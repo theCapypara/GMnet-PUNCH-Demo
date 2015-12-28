@@ -115,6 +115,9 @@
       <object>objects\obj_demo_btn_server</object>
       <object>objects\obj_udphphtme_lobby</object>
     </objects>
+    <objects name="udphp">
+      <object>objects\obj_punch_client</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <rooms name="udphp_demo">

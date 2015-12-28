@@ -170,6 +170,9 @@ var in_id = ds_map_find_value(async_load, "id");
 //Only continue, if this packet is for this server
 if (in_id != server) exit;
 
+//Reset buffer, just in case
+buffer_seek(in_buff, buffer_seek_start, 0);
+
 //Check command
 switch buffer_read(in_buff, buffer_s8 ) {
     case 10:

@@ -25,10 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Stop last client
-var client_id = ds_map_size(global.udphp_clients_udp);
-while (ds_map_exists(global.udphp_clients_udp,client_id)) {client_id++}
-udphp_stopClient(client_id-1);
+            <string>///Stop all clients
+with (obj_punch_client) {
+    udphp_stopClient(id);
+}
 </string>
           </argument>
         </arguments>

@@ -178,6 +178,9 @@ var in_buff = ds_map_find_value(async_load, "buffer");
 //Only continue, if this packet is for this client and from server
 if (in_id != client or in_ip != udphp_clientGetServerIP(client_id)) exit;
 
+//Reset buffer, just in case
+buffer_seek(in_buff, buffer_seek_start, 0);
+
 //Check command
 switch buffer_read(in_buff, buffer_s8 ) {
     case 10:
